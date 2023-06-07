@@ -9,7 +9,7 @@ import { Editora } from '../editora';
 @Component({
   selector: 'app-livro-dados',
   templateUrl: './livro-dados.component.html',
-  styleUrls: ['./livro-dados.component.css']
+  styleUrls: ['./livro-dados.component.scss']
 })
 export class LivroDadosComponent implements OnInit {
   livro: Livro = new Livro(0, 0, '', '', []);
